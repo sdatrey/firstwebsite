@@ -1,0 +1,156 @@
+
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.Content{
+  margin-bottom: 5px;
+
+}
+body {
+  font-family: "Comic Sans MS";
+  text-align: justify;
+}
+.Content p{
+  padding-top: 20px;
+}
+.container {
+    max-width: 1170px;
+    padding: 15px 15px;
+    margin: 0 auto;
+  }
+
+span{
+    color: cyan;
+}
+header {
+    height: 95px;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    position: fixed;
+    background-attachment: fixed;
+    background-color: white;
+  }
+  
+  .header-right a:hover {
+    color: cyan;
+  }
+  
+  .header-left {
+    float: left;
+    color: black;
+    
+    margin-top: 20px;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: black;
+    float: left;
+   
+  }
+  
+.top {
+    padding: 180px 0 100px 0;
+    
+    text-align: center;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .top h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  h2{
+  font-size: 40px;
+  letter-spacing: 4px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+ }
+ .heading{
+   margin-top: 30px;
+   text-align: center;
+ }
+ .txt a {
+   color: cyan;
+ }
+ footer{
+   height: 300px;
+   background-color: rgba(27, 25, 25, 0.829);
+ }
+ .list-heading{
+   padding-top: 50px;
+   padding-bottom: 4px;
+ }
+ .footer-left{
+   float: left;
+ }  
+ .footer-left h3{
+   color: honeydew;
+   margin-bottom: 10px;
+   font-weight: normal;
+ }
+ .footer-left li{
+   list-style-type: none;
+   color: rgb(190, 183, 183);
+   font-size: small;
+   padding: 10px;
+   margin-top: 4px;
+   font-weight: normal;
+ }
+ .footer-right{
+   float: right;
+  
+ }
+ .footer-right h3{
+   color: honeydew;
+   font-weight: normal;
+   
+ }
+ .logo{
+  width: 25px;
+  margin-top: 20px;
+  padding: 10px;
+
+ }
+ .follow a:hover{
+  color: cyan;
+ }
+ .start{
+  margin-top: 60px;
+ }
+.start a{
+  line-height: 100px;
+  width: 100%;
+  font-size: x-large;
+  text-align: center;
+  color: honeydew;
+  display: block;
+  background-color: rgba(0, 255, 221, 0.829);
+  transition: all 0.5s;
+}
